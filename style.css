@@ -1,0 +1,231 @@
+
+body {
+  background-color: #fffbf7;
+}
+
+.navigator{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    text-align: left;
+    font-weight: 800;
+    size: 100%;
+}
+
+.nav-bar{
+    height: 45px;
+    text-align: center;
+}
+.nav-bar ul{
+    list-style: none;
+}
+.nav-bar ul li{
+    float:left;
+}
+
+.nav-bar ul li a{
+    font-size: 14px;
+    padding:25px;
+}
+
+.nav-text{
+    color: #025157;
+    text-decoration: none;
+}
+
+.sign {
+  text-align: right;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+a {
+  color: #67b54b;
+  font-family: sans-serif;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+button {
+  color: white;
+  font-family: sans-serif;
+  background-color: #67b54b;
+  font-size: 14px;
+  border: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px; 
+  border-radius: 5px;
+}
+header{
+ height: 250px;
+}
+
+main {
+  text-align: center;
+  height:300px;
+  
+}
+
+h1 {
+  color: #025157;
+  font-family: "Alegreya", serif;
+  font-size: 60px;
+  margin-bottom: 24px;
+}
+
+h4 {
+  color: #46484c;
+  font-family: "Slabo 27px", serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+main button{
+  background: #025157;
+}
+
+/* Sesion 3 */
+/* reto 3 */
+.publish {
+  /* container styles if any */
+  flex: 1;
+}
+
+.publish h3 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  color: #025157;
+  
+}
+
+.publish > p {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #343434;
+}
+
+.publish > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.publish > form p {
+  font-family: sans-serif;
+  color: #a7a5a5;
+  margin-right: 18px;
+}
+
+.publish > form button{
+  background-color: #025157;
+  color: #fffbf7;
+}
+
+/* Reto 4 */
+.container-video{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+ 
+}
+
+.container-video img{
+  width: 140px;
+  flex: 1;
+}
+
+.container-publish{
+  display: flex;
+  align-items: center;
+  max-width: 75%;
+  justify-content: space-between;
+  margin: auto;
+  text-align: justify;
+}
+
+/* Sesion 04 */
+/* Reto 02 */
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 660px;
+  grid-template-rows: repeat(2, 1fr);
+}
+/* Reto 03 */
+.features {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 330px);
+}
+
+/* Reto 04 */
+.containers{
+  display: grid;
+  background: #025157;
+  grid-template: repeat(2, 330px) / repeat(2, 1fr);
+  padding: 5% 10%;
+}
+
+.containers .container-card{
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.containers .container-card .container-text {
+  padding: 30px 20px 40px 40px;
+  flex: 2;
+}
+
+.containers .container-card .container-text > * {
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.containers .container-card .container-text img {
+  width: 50px;
+}
+
+.containers .container-card .container-text h2 {
+  font-size: 24px;
+  color: #343434;
+  font-weight: 400;
+}
+
+.containers .container-card .container-text p {
+  font-size: 16px;
+  color: #7e7e7e;
+  font-weight: 400;
+}
+
+.containers .container-card .container-text a {
+  font-size: 16px;
+  color: #67b54b;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.containers .container-card .container-img {
+  flex: 1;
+  width: 40%;
+  position: relative;
+  right: -50px;
+  height: 80%;
+}
+
+.containers .container-card .container-img figure,
+.containers .container-card .container-img img {
+  margin-top: 0;
+  height: 100%;
+}
